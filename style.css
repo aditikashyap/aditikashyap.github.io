@@ -129,6 +129,7 @@ header {
 
 .logo {
   max-width: 100px;
+  background-blend-mode: multiply;
 }
 
 .nav {
@@ -392,7 +393,9 @@ header {
   margin: 0 auto;
 }
 
-.portfolio-item-individual p {
+.portfolio-item-individual ul {
+  /* font-weight: var(--fw-bold); */
+  font-size: var(--fs-body);
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
